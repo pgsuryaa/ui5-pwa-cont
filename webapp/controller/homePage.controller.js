@@ -177,7 +177,7 @@ sap.ui.define([
 			var that = this;
 			this.app = sap.ui.getCore().byId("appId");
 			if(!this.rendered){
-			this.simulateInput("Hey. I am "+this.app.username);
+			this.simulateInput("Hey. I am Neil");
 			this.rendered=true;
 			}
 			this.getView().byId('unameBtn').setText(this.app.username);
