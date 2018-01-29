@@ -1,0 +1,36 @@
+<mvc:View controllerName="zpwa_test.controller.homePage" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m" xmlns:tnt="sap.tnt">
+	<App>
+		<pages>
+			<Page title="NS Assistant" id="msgContent" class="contentCls" showHeader="true">
+				<customHeader>
+					<Bar id="headerBar" class="headerCls" >
+						<contentRight>
+						<Button id="unameBtn" class="noFocusCls" ></Button>
+						<Button id="logoutBtn" text="Logout" press="onLogout"></Button>
+						</contentRight>
+					</Bar>
+				</customHeader>
+				<content>
+					<!--<PullToRefresh id="pullToRefresh" refresh="handleRefresh"/>-->
+					<!--<VBox class="wrapper">-->
+					<!--<Button id="dragBtn" class="dragBtn draggable" icon="mic.png" press="toggleListen" />-->
+					<!--</VBox>-->
+				</content>
+				<footer>
+					<Bar id="footerId" class="footerInv">
+						<contentLeft>
+							<Button id="actBtn" icon="sap-icon://activities" press="showActivities" tooltip="Show all activities"/>
+						</contentLeft>
+						<contentMiddle>
+							<Button id="micBtn" icon="sap-icon://microphone" press="toggleListen" tooltip="Talk to Fiori"/>
+						</contentMiddle>
+						<contentRight>
+							<Button id="typeId" icon="sap-icon://notification-2" press="typeInput"/>
+						</contentRight>
+					</Bar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

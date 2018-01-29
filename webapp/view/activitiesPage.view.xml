@@ -1,0 +1,25 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="zpwa_test.controller.activitiesPage"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="Activities" showNavButton="true" navButtonPress="navBack">
+				<content>
+						<PullToRefresh
+				id="pullToRefresh2"
+				refresh="handleRefresh" />
+					<List id="list" mode="{device>/listMode}" items="{actModel>/d/results}">
+						<ObjectListItem type="{device>/listItemType}" press="handleListItemPress" title="{actModel>SoldToPartner}" number="{actModel>ActivityId}" numberUnit="{CurrencyCode}">
+							<attributes>
+								<ObjectAttribute text="{actModel>Notes}"/>
+							</attributes>
+							<firstStatus>
+								<ObjectStatus text="{actModel>AccountId}"
+									/>
+							</firstStatus>
+						</ObjectListItem>
+					</List>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

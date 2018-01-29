@@ -1,0 +1,22 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="zpwa_test.controller.loginPage"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="Title" showHeader="false">
+				<content>
+					<FlexBox height="100%"
+					alignItems="Center"
+					justifyContent="Center">
+						<items>
+						<VBox justifyContent="Center" alignItems="Center">
+						<Input id="unameId" class="inputCls" placeholder="username" ></Input>
+						<Input id="passId" class="inputCls" placeholder="password" type="Password"></Input>
+						<Button text="Login" press="onLoginPressed"/>
+						</VBox> 
+						</items>
+					</FlexBox>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

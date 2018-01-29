@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta charset="UTF-8">
+		
+	<!-- PWA related meta tags -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- PWA manifest -->
+	<link rel="manifest" href="manifest.json">
+	<!-- Add to home screen for Safari on iOS -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-title" content="PWA">
+	<link rel="apple-touch-icon" href="icon/icon-152x152.png">
+	<!-- Windows related -->
+	<meta name="msapplication-TileImage" content="icon/icon-144x144.png">
+	<meta name="msapplication-TileColor" content="#386CC1">
+	<meta name="theme-color" content="#164391">
+		<title>PWA</title>
+		<!--<script src="register-worker.js"></script>-->
+			<script src="artyom.js"></script>
+		<script src="util/ApiAi.js"></script>
+		<!--<script src="util/drag.js"></script>-->
+		<script id="sap-ui-bootstrap"
+			src="../../resources/sap-ui-core.js"
+			data-sap-ui-libs="sap.m"
+			data-sap-ui-theme="sap_belize"
+			data-sap-ui-compatVersion="edge"
+			data-sap-ui-resourceroots='{"zpwa_test": ""}'>
+		</script>
+		
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<script>
+			sap.ui.getCore().attachInit(function() {
+				new sap.m.Shell("shell",{
+					app: new sap.ui.core.ComponentContainer({
+						height : "100%",
+						name : "zpwa_test"
+					})
+				}).placeAt("content");
+			});
+			
+		</script>
+		<script>
+		$.sap.require('sap.ui.thirdparty.jqueryui.jquery-ui-core');
+    $.sap.require('sap.ui.thirdparty.jqueryui.jquery-ui-widget');
+    $.sap.require('sap.ui.thirdparty.jqueryui.jquery-ui-mouse');
+    $.sap.require('sap.ui.thirdparty.jqueryui.jquery-ui-draggable');
+    $.sap.require('sap.ui.thirdparty.jqueryui.jquery-ui-sortable');
+    
+        $(document).ready(function(){
+      $(".draggable").draggable({
+        cancel : false
+      });
+    }); 
+		</script>
+		<script src="util/touchpunch.js"></script>
+		
+	</head>
+
+	<body class="sapUiBody" id="content">
+
+	</body>
+
+</html>

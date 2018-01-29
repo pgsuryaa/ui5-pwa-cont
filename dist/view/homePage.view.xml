@@ -1,0 +1,31 @@
+<mvc:View controllerName="zpwa_test.controller.homePage" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m" xmlns:tnt="sap.tnt">
+	<App>
+		<pages>
+			<Page title="NS Assistant" id="msgContent" showHeader="true">
+				<customHeader>
+					<tnt:ToolHeader>
+						<Button icon="sap-icon://menu2" type="Transparent">
+						</Button>
+					</tnt:ToolHeader>
+				</customHeader>
+				<content>
+					<PullToRefresh id="pullToRefresh" refresh="handleRefresh"/>
+					<!--<VBox class="wrapper">-->
+					<!--<Button id="dragBtn" class="dragBtn draggable" icon="mic.png" press="toggleListen" />-->
+					<!--</VBox>-->
+				</content>
+				<footer>
+					<Bar id="footerId" class="footerInv">
+						<contentLeft>
+							<Button id="actBtn" icon="sap-icon://activities" press="showActivities" tooltip="Show all activities"/>
+						</contentLeft>
+						<contentMiddle>
+							<Button id="micBtn" icon="sap-icon://microphone" press="toggleListen" tooltip="Talk to Fiori"/>
+						</contentMiddle>
+					</Bar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

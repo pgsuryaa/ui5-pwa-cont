@@ -1,0 +1,93 @@
+/* Enter your custom styles here */
+.sapMLIB.sapMObjLItem {
+    padding: 1rem;
+    border-radius: 10px !important;
+    box-shadow: 0px 3px 7px 1px #c1c1c1 !important;
+}
+.contentCls ul li span {
+	font-size: 1rem !important;
+}
+.contentCls ul li {
+	width: 75vw !important;
+}
+.card-panel span {
+	font-size:1rem !important;
+}
+.card-panel {
+	border-radius: 12px !important;
+}
+.contentCls{
+	/*background-image: url('icons/bg.jpg');*/
+}
+.messageBoxCls{
+	padding: 5px !important;
+}
+.inputCls {
+	border-radius: 9px !important;
+}
+.headerCls {
+	background-color: #2f3c48 !important;
+}
+.headerCls .sapMBtnInner {
+    color: #d9d9d9 !important;
+}
+#loginView{
+	background: url('../icons/fioribg.png') no-repeat;
+	background-size: 100%;
+}
+.noFocusCls:focus{
+	background-color: #2f3c48;
+}
+#messageIpt input{
+	outline: none;
+}
+/*.footerInv {*/
+/*    background-color: #2f4f4f00 !important;*/
+/*    border-top: 1px solid #475b6d00 !important;*/
+    /*    height: 100px;*/
+    /*margin-right: 5%;*/
+    /*width: auto;*/
+/*}*/
+
+
+/*.dragBtn .sapMBtnInner {*/
+	/*left: 45vw;*/
+ /*   top: 80vh;*/
+ /*top: 80vh;*/
+/*     border-radius: 50%;*/
+/*     top: -28px;*/
+/*     border: 0px;*/
+/*}*/
+/*.micBtn .sapMBtnInner {*/
+	
+/*     border: 0px;*/
+/*}*/
+/*.wrapper {*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*  justify-content: flex-end;*/
+/*  height: 100%;*/
+/*      position: absolute;*/
+/*    width: 100%;*/
+  
+/*}*/
+/*.mydivCls {*/
+/*    position: absolute;*/
+/*    z-index: 9;*/
+/*    background-color: #f1f1f1;*/
+/*    text-align: center;*/
+/*    border: 1px solid #d3d3d3;*/
+/*}*/
+/*@keyframes pulse {*/
+/*  0% {*/
+/*    transform: scale3d(1, 1, 1);*/
+/*  }*/
+
+/*  50% {*/
+/*    transform: scale3d(1.05, 1.05, 1.05);*/
+/*  }*/
+
+/*  100% {*/
+/*    transform: scale3d(1, 1, 1);*/
+/*  }*/
+/*}*/

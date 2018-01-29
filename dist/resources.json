@@ -1,0 +1,105 @@
+{
+    "resources": [
+        {
+            "name": "index.html"
+        },
+        {
+            "name": "mic.png"
+        },
+        {
+            "name": "artyom.js"
+        },
+        {
+            "name": "model/models.js"
+        },
+        {
+            "name": "model/mock.json"
+        },
+        {
+            "name": "css/style.css"
+        },
+        {
+            "name": "i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "controller/activitiesPage.controller.js"
+        },
+        {
+            "name": "controller/homePage.controller.js"
+        },
+        {
+            "name": "register-worker.js"
+        },
+        {
+            "name": "icons/icon-512x512.png"
+        },
+        {
+            "name": "icons/icon-144x144.png"
+        },
+        {
+            "name": "icons/icon-192x192.png"
+        },
+        {
+            "name": "icons/icon-256x256.png"
+        },
+        {
+            "name": "icons/icon-128x128.png"
+        },
+        {
+            "name": "icons/icon-152x152.png"
+        },
+        {
+            "name": "util/Grouper.js"
+        },
+        {
+            "name": "util/touchpunch.js"
+        },
+        {
+            "name": "util/ApiAi.js"
+        },
+        {
+            "name": "util/CustomPopover.js"
+        },
+        {
+            "name": "util/CustomMessageRight.js"
+        },
+        {
+            "name": "util/drag.js"
+        },
+        {
+            "name": "util/Formatter.js"
+        },
+        {
+            "name": "util/CustomMessageLeft.js"
+        },
+        {
+            "name": "util/Commands.js"
+        },
+        {
+            "name": "Component.js"
+        },
+        {
+            "name": "manifest.json"
+        },
+        {
+            "name": "view/homePage.view.xml"
+        },
+        {
+            "name": "view/activitiesPage.view.xml"
+        },
+        {
+            "name": "service-worker.js"
+        },
+        {
+            "name": "appmanifest.json"
+        },
+        {
+            "name": "Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "neo-app.json"
+        }
+    ]
+}
