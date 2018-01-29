@@ -1,4 +1,4 @@
-const CACHE_NAME = 'pwa-ui5-app-ns-v1.0.07';
+const CACHE_NAME = 'pwa-ui5-cont-app-ns-v1.0.07';
 const RESOURCES_TO_PRELOAD = [
 	'index.html',
 	'logo.svg',
