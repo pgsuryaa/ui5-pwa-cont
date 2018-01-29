@@ -28,17 +28,17 @@ sap.ui.define([
 		createContent: function() {
 			var that=this;
 			// create root view
-			var oView = sap.ui.view({
-				id: "loginView",
-				viewName: "zpwa_test.view.loginPage",
-				type: "XML",
-				viewData: {
-					component: this
-				}
-			});
+			//var oView = sap.ui.view({
+			//	id: "loginView",
+			//	viewName: "zpwa_test.view.loginPage",
+			//	type: "XML",
+			//	viewData: {
+			//		component: this
+			//	}
+			//});
 			this.app = new sap.m.App("appId");
-			this.app.addPage(oView);
-			oView = sap.ui.view({
+			//this.app.addPage(oView);
+			var oView = sap.ui.view({
 				id: "homeView",
 				viewName: "zpwa_test.view.homePage",
 				type: "XML",
