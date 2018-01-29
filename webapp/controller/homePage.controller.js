@@ -157,10 +157,14 @@ sap.ui.define([
 						oMessage.addContent(new sap.m.Text({
 							text: result
 						}));
-						artyom.say(result);
+						
 						that.getView().byId("msgContent").addContent(oMessage);
 						jQuery.sap.delayedCall(500, that, function() {
 							that.scrollDown();
+						});
+						artyom.say(result);
+						jQuery.sap.delayedCall(4000, that, function() {
+							that.toggleListen();
 						});
 					});
 				}
@@ -186,7 +190,7 @@ sap.ui.define([
 			// });
 			//	dragElement(document.getElementById('homeView--mydiv'));
 		},
-		toggleListen: function(oEvent) {
+		toggleListen: function() {
 			if (artyom.isRecognizing()) {
 				artyom.fatality();
 				$('#homeView--micBtn').css("animation", "none");
