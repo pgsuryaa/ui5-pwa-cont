@@ -278,9 +278,13 @@ sap.ui.define([
 					text: response.result.fulfillment.speech
 				}));
 				that.getView().byId("msgContent").addContent(oMessage);
-				artyom.say(response.result.fulfillment.speech);
+				
 				jQuery.sap.delayedCall(500, that, function() {
 					that.scrollDown();
+				});
+				artyom.say(response.result.fulfillment.speech);
+				jQuery.sap.delayedCall(4000, that, function() {
+							that.toggleListen();
 				});
 				return response;
 			});

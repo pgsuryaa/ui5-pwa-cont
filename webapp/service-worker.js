@@ -6,7 +6,8 @@ const RESOURCES_TO_PRELOAD = [
 	'Component.js',
 	'view/loginView.view.xml',
 	'controller/loginView.controller.js',
-	'manifest.json'
+	'manifest.json',
+	'icons/fioribg.png'
 ];
 
 /* 
