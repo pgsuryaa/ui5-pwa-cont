@@ -2,7 +2,7 @@
 	displayBlock="true" xmlns="sap.m" xmlns:tnt="sap.tnt">
 	<App>
 		<pages>
-			<Page title="NS Assistant" id="msgContent" class="contentCls" showHeader="true">
+			<Page title="NS Assistant" id="msgContent" class="contentCls" showHeader="false">
 				<customHeader>
 					<Bar id="headerBar" class="headerCls" >
 						<contentRight>
