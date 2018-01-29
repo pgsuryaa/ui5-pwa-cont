@@ -197,7 +197,7 @@ sap.ui.define([
 			} else {
 				artyom.initialize({
 					lang: "en-GB", // A lot of languages are supported. Read the docs !
-					continuous: false, // recognize 1 command and stop listening !
+					continuous: true, // recognize 1 command and stop listening !
 					listen: true, // Start recognizing
 					debug: true, // Show everything in the console
 					speed: 1 // talk normally
