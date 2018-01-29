@@ -19,6 +19,7 @@ sap.ui.define([
 				action: function(i, wildcard) { // Action to be executed when a index match with spoken word
 
 					var oMessage = new UserResponse();
+					artyom.fatality();
 					oMessage.addContent(new sap.m.Text({
 						text: wildcard
 					}));
